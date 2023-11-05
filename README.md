@@ -35,7 +35,7 @@ DELETE   |api/employee/{id}|Çalışan bilgilerini siler|integer (id)|String
 PUT      |api/employee{id}| Çalışan bilgilerini günceller|integer (id) <p/> UpdateEmployeeDto(Json body)|EmployeeDto(Json Body)
 
 ### Model
-- ![image.png](image.png)
+- ![imagee.png](imagee.png)
 
 - CompanyDto <p/>
   id  Long  <p/>
