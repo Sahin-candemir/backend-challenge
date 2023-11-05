@@ -1,6 +1,6 @@
 # backend-challenge
 ## Kullanılan Teknolojiler
-* Java
+* Java 17
 * Maven
 * Spring Boot (Version : 3.1.5)
 * Postqresql
