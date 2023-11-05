@@ -37,10 +37,35 @@ PUT      |api/employee{id}| Çalışan bilgilerini günceller|integer (id) <p/> 
 ### Model
 - ![imagee.png](imagee.png)
 
-- CompanyDto <p/>
+#### CompanyDto 
   id  Long  <p/>
-  name String
-  
-- EmployeeDto <p/>
   name String <p/>
-  position String
+  createdDate LocalDateTime <p/>
+
+#### CreateCompanyDto
+  name String <p/>
+
+#### UpdateCompanyDto 
+  name String <p/>
+
+#### CreateEmployeeDto 
+  firstName  String  <p/>
+  lastName String <p/>
+  email String <p/>
+  age int <p/>
+
+#### UpdateEmployeeDto 
+  firstName  String  <p/>
+  lastName String <p/>
+  email String <p/>
+  age int <p/>
+  companyId Long <p/>
+
+#### EmployeeDto 
+  id Long <p/>
+  firstName  String  <p/>
+  lastName String <p/>
+  email String <p/>
+  age int <p/>
+  createdDate LocalDateTime <p/>
+
